@@ -1,0 +1,14 @@
+public class NeDeljivSaTri {
+
+	public static void main(String[] args) {
+		for (int a = 1; a <= 17; a++) { /** treba koristiti mozak */
+			int b = a % 3;
+
+			if (b != 0) {
+				System.out.println(a);
+			}
+		} 
+
+	}
+
+}
